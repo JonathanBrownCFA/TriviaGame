@@ -72,7 +72,7 @@ $(document).ready(function () {
                             $("#category2").show("slow");
                         };
                         if (cat3) {
-                            $("#category3").html();
+                            $("#category3").text();
                             $("#category3").show("slow");
                         };
                         if (cat4) {
