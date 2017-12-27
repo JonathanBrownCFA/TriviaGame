@@ -17,7 +17,7 @@ $(document).ready(function () {
                 alert("Time is up!");
 
             } else {
-                document.getElementById("timer").innerHTML = "\u00A0" + "\u00A0" + count + "";
+                document.getElementById("timer").innerHTML = count + "";
             }
 
             $(document).ready(function () {
@@ -64,7 +64,7 @@ $(document).ready(function () {
                         $("#categorylist").show("slow");
 
                         if (cat1) {
-                            $("#category1").text();
+                         
                             $("#category1").show("slow");
                         };
                         if (cat2) {

@@ -37,7 +37,7 @@ h3 {
     margin: 5px 5px 5px 5px;
     background: #01497c;
     color: rgb(234, 234, 240);
-    line-height: 2;
+    line-height: 2em;
     text-align: center;
     text-decoration: none;
     font-weight: 900;
@@ -62,7 +62,7 @@ h3 {
     margin: 5px 5px 5px 5px;
     background: #01497c;
     color: rgb(234, 234, 240);
-    line-height: 2;
+    line-height: 2em;
     text-align: center;
     text-decoration: none;
     font-weight: 900;
@@ -77,6 +77,7 @@ h3 {
 }
 pre {
     opacity: 0.9;
+    margin:0;
    
 }
 
@@ -121,7 +122,7 @@ label {
     margin: 5px 5px 5px 5px;
     background: #035680;
     color: rgb(234, 234, 240);
-    line-height: 2;
+    line-height: 2em;
     margin-left: 38%;
     text-align: center;
     text-decoration: none;
@@ -148,14 +149,15 @@ label {
 
 
 #categorylist { 
-    margin-top: 5px; 
+    margin-top: 0; 
     display: none; 
+ 
     } 
 
 
-#category1 {display: none; }
+#category1 {display: none; margin:0; }
 #category2 {display: none; }
-#category3 {display: none; }
+#category3 {display: none; line-height:8px;}
 #category4 {display: none; }
 #category11 {display: none; }
      
