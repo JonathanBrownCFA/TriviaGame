@@ -14,7 +14,7 @@ $(document).ready(function () {
 
                 clearInterval(counter);
                 document.getElementById("timer").innerHTML = "\u00A0" + "Game Over";
-                alert("You didn't finish on time!");
+                alert("Time is up!");
 
             } else {
                 document.getElementById("timer").innerHTML = "\u00A0" + "\u00A0" + count + "";
@@ -60,25 +60,30 @@ $(document).ready(function () {
 
 
                         var catStr = 'You answered the following questions incorrectly: ' + categories.join(', ') + '';
-                        $("#categoryList").text(catStr);
-                        $("#categoryList").show("slow");
+                        $("#categorylist").html(catStr);
+                        $("#categorylist").show("slow");
 
                         if (cat1) {
+                            $("#category1").text();
                             $("#category1").show("slow");
                         };
                         if (cat2) {
+                            $("#category2").text();
                             $("#category2").show("slow");
                         };
                         if (cat3) {
+                            $("#category3").html();
                             $("#category3").show("slow");
                         };
                         if (cat4) {
+                            $("#category4").text();
                             $("#category4").show("slow");
                         };
                         if (cat11) {
+                            $("#category11").text();
                             $("#category11").show("slow");
                         }; {
-                            $("#closing").show("slow");
+
                         };
                     }
 

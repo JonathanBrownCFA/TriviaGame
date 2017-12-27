@@ -1,147 +1,113 @@
+html {
+    background-image: url(../images/savannah6.jpg);
+}
+
+
+
 body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     font-family: verdana, arial, helvetica, sans-serif;
     color: #ccc;
-    background-color: #333;
-    background-image: url(../images/savannah6.jpg);
     text-align: left;
-    min-height: 100%
 }
 
-html {
-    height: 100%;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #ccc;
-    outline: red;
-}
-
-a:visited {
-    color: #ccc;
-}
-
-a:active {
-    color: #ccc;
-}
-
-a:hover {
-    color: #ccc;
-    text-decoration: underline;
-}
-
-strong,
-b {
-    font-weight: bold;
-}
-
-p {
-    font-size: 18px;
-    margin-top: 20px;
-}
-
-p.question {
-    color: rgb(19, 18, 18);
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 20px;
-    font-weight: bold;
-}
-
-#category1 {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#category2 {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#category3 {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#category4 {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#category11 {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#categoryList {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-img {
-    border: 0;
-}
-
-.nowrap {
-    white-space: nowrap;
-    font-size: 10px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#content {
+h3 {
     padding: 10px;
-    margin-top: 10px;
+   
     margin-bottom: 0px;
+    width: 570px;
     margin-right: auto;
     margin-left: auto;
     background: #666;
     border: 5px solid #ccc;
+    font-size: 14px;
+    background: #666;
+    border: 5px solid #ccc;
     text-align: left;
-    /* part 2 of 2 centering hack */
+}
+#timer {
+    display: block;
+    border-style: solid;
+    border-color: #bbb #888 #666 #aaa;
+    border-width: 3px 4px 4px 3px;
+    font-size: 16px;
+    width: 9em;
+    height: 2em;
+    margin: 5px 5px 5px 5px;
+    background: #01497c;
+    color: rgb(234, 234, 240);
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-html>body #content {
-    width: 570px;
+#timer:hover {
+    background-color: #01a2ff;
+    color: white;
+    cursor: pointer;
 }
 
-ul.answers {
-    list-style: upper-alpha;
-    margin-bottom: 1px;
+#reset {
+    display: block;
+    border-style: solid;
+    border-color: #bbb #888 #666 #aaa;
+    border-width: 3px 4px 4px 3px;
+    font-size: 16px;
+    width: 9em;
+   
+    margin: 5px 5px 5px 5px;
+    background: #01497c;
+    color: rgb(234, 234, 240);
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-input[type=radio] {
-    color: red;
+#reset:hover {
+    background-color: #01a2ff;
+    color: white;
+    cursor: pointer;
 }
+pre {
+    opacity: 0.9;
+   
+}
+
+
+p.question {
+    color: rgb(19, 18, 18);
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+p {
+    margin:0;
+}
+ul {
+    margin:0;
+}
+
+
+.answers li { 
+    list-style: upper-alpha; 
+    } 
 
 label {
-    display: inline-block;
+   
     margin-bottom: 5px;
     margin-left: 20px;
     vertical-align: top;
     font-size: larger;
+    cursor: pointer;
 }
 
 #results {
@@ -149,6 +115,7 @@ label {
     border-style: solid;
     border-color: #bbb rgb(167, 166, 166) rgba(138, 137, 137, 0.938) #aaa;
     border-width: 3px 4px 4px 3px;
+    font-size: 16px;
     width: 9em;
     height: 2em;
     margin: 5px 5px 5px 5px;
@@ -162,115 +129,42 @@ label {
 }
 
 #results:hover {
-    background-color: #034949;
+    background-color: #01a2ff;
     color: white;
     cursor: pointer;
 }
-
-#categorylist {
-    margin-top: 6px;
-    display: none;
+#content {
+    padding: 15px;
+  
+    margin-top: 1px;
+    width:570px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #666;
+    border: 5px solid #ccc;
+    text-align: left;
 }
 
-#category1,
-#category2,
-#category3,
-#category4,
-#category11 {
-    display: none;
-    height: 50px;
-}
 
-#closing {
-    display: none;
-    font-style: italic;
-}
+#categorylist { 
+    margin-top: 5px; 
+    display: none; 
+    } 
 
-#timer {
-    display: block;
-    border-style: solid;
-    border-color: #bbb #888 #666 #aaa;
-    border-width: 3px 4px 4px 3px;
-    width: 9em;
-    height: 2em;
-    margin: 5px 5px 5px 5px;
-    background: #01497c;
-    color: rgb(234, 234, 240);
-    line-height: 2;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 900;
-}
 
-#timer:hover {
-    background-color: #034949;
-    color: white;
-    cursor: pointer;
-}
+#category1 {display: none; }
+#category2 {display: none; }
+#category3 {display: none; }
+#category4 {display: none; }
+#category11 {display: none; }
+     
+   
 
-.answers li {
-    list-style: upper-alpha;
-}
 
-label {
-    margin-left: 0.5em;
-    cursor: pointer;
-}
 
-#reset {
-    display: block;
-    border-style: solid;
-    border-color: #bbb #888 #666 #aaa;
-    border-width: 3px 4px 4px 3px;
-    width: 9em;
-    height: 2em;
-    margin: 5px 5px 5px 5px;
-    background: #01497c;
-    color: rgb(234, 234, 240);
-    line-height: 2;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 900;
-}
 
-#reset:hover {
-    background-color: #034949;
-    color: white;
-    cursor: pointer;
-}
 
-#categorylist {
-    margin-top: 6px;
-    display: none;
-}
 
-#category1,
-#category2,
-#category3,
-#category4,
-#category5,
-#category6,
-#category7,
-#category8,
-#category9,
-#category10,
-#category11 {
-    display: none;
-}
 
-#closing {
-    display: none;
-    font-style: italic;
-}
 
-h3 {
-    display: block;
-    height: 2em;
-    margin: 5px 5px 5px 5px;
-    background: #787a7a;
-    color: rgb(234, 234, 240);
-    line-height: 2;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 900;
-}
