@@ -1,26 +1,20 @@
 html {
     background: url(../images/savannah6.jpg) repeat;
-    background-size: cover ;
-    
-    
-    
-    
+    background-size: cover;
 }
 
-pre
-{margin-left:auto;
-margin-right:auto;
-
-margin: 0;
-
+pre {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
 }
+
 body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     font-family: verdana, arial, helvetica, sans-serif;
     color: #ccc;
     text-align: left;
-   
 }
 
 h3 {
@@ -30,20 +24,15 @@ h3 {
     width: auto;
     margin-right: auto;
     margin-left: auto;
-    color:rgb(252, 252, 247);
-    
+    color: rgb(252, 252, 247);
     font-size: 14px;
-    
-    
     text-align: center;
     opacity: 0.7;
 }
 
 #wrapper {
-   
     border: none;
     overflow: hidden;
-    
     padding: 25px;
 }
 
@@ -67,8 +56,7 @@ h3 {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    overflow:hidden;
-   
+    overflow: hidden;
 }
 
 #timer:hover {
@@ -76,7 +64,8 @@ h3 {
     color: white;
     cursor: pointer;
 }
-#timer:active{
+
+#timer:active {
     background-color: #002333;
     color: rgb(87, 84, 84);
     outline: none;
@@ -84,7 +73,6 @@ h3 {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-
 
 #reset {
     display: inline-block;
@@ -114,7 +102,8 @@ h3 {
     color: white;
     cursor: pointer;
 }
-#reset:active{
+
+#reset:active {
     background-color: #002333;
     color: rgb(87, 84, 84);
     outline: none;
@@ -123,39 +112,31 @@ h3 {
     transform: translateY(4px);
 }
 
-
 .countdown1 {
     display: block;
     border: 3px solid #3d3b3b;
     font-size: 50px;
     width: 3em;
-    
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 
-    inset 0 -2px 10px 1px rgba(0, 0, 0, 0.75), 
-    0 5px 20px -10px rgba(0, 0, 0, 1);
+    box-shadow: inset 0 -2px 10px 1px rgba(0, 0, 0, 0.75), 0 5px 20px -10px rgba(0, 0, 0, 1);
     padding: 5px;
     text-align: center;
     border: none;
     border-radius: 15px;
-    
-    
 }
 
 #countdown {
     display: block;
-	font-family: monospace;
-	text-align: center;
-	color: #fff;
+    font-family: monospace;
+    text-align: center;
+    color: #fff;
     text-shadow: 0 0 25px rgb(252, 249, 249);
     margin-right: auto;
     margin-left: auto;
     font-weight: bolder;
 }
-
-
 
 p.question {
     color: rgb(19, 18, 18);
@@ -164,24 +145,21 @@ p.question {
     font-weight: bold;
 }
 
-
 p {
-    margin:0;
+    margin: 0;
 }
+
 ul {
-    margin:0;
+    margin: 0;
 }
 
-
-.answers li { 
-    list-style: upper-alpha; 
-    } 
+.answers li {
+    list-style: upper-alpha;
+}
 
 label {
-   
     margin-bottom: 5px;
     margin-left: 20px;
-    
     font-size: larger;
     cursor: pointer;
 }
@@ -213,7 +191,7 @@ label {
     cursor: pointer;
 }
 
-#results:active{
+#results:active {
     background-color: #002333;
     color: rgb(87, 84, 84);
     outline: none;
@@ -226,36 +204,38 @@ label {
     padding: 15px;
     opacity: 0.85;
     margin-top: 1px;
-    width:570px;
+    width: 570px;
     margin-bottom: 0px;
     margin-right: auto;
     margin-left: auto;
     background: #666;
     border: 5px solid #ccc;
     text-align: left;
-    border-style:double;
+    border-style: double;
 }
 
+#categorylist {
+    margin-top: 0;
+    display: none;
+}
 
-#categorylist { 
-    margin-top: 0; 
-    display: none; 
- 
-    } 
+#category1 {
+    display: none;
+    margin: 0;
+}
 
+#category2 {
+    display: none;
+}
 
-#category1 {display: none; margin:0; }
-#category2 {display: none; }
-#category3 {display: none; }
-#category4 {display: none; }
-#category11 {display: none; }
-     
-   
+#category3 {
+    display: none;
+}
 
+#category4 {
+    display: none;
+}
 
-
-
-
-
-
-
+#category11 {
+    display: none;
+}
