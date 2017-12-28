@@ -1,5 +1,6 @@
 html {
     background-image: url(../images/savannah6.jpg);
+    background-size: 225em;
 }
 
 pre
@@ -160,7 +161,7 @@ label {
    
     margin-bottom: 5px;
     margin-left: 20px;
-    vertical-align: top;
+    
     font-size: larger;
     cursor: pointer;
 }
