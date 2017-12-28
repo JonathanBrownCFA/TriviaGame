@@ -43,6 +43,9 @@ h3 {
     font-weight: 900;
     margin-right: auto;
     margin-left: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 #timer:hover {
@@ -50,6 +53,15 @@ h3 {
     color: white;
     cursor: pointer;
 }
+#timer:active{
+    background-color: #002333;
+    color: rgb(87, 84, 84);
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 
 #reset {
     display: block;
@@ -68,6 +80,9 @@ h3 {
     font-weight: 900;
     margin-right: auto;
     margin-left: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 #reset:hover {
@@ -75,6 +90,31 @@ h3 {
     color: white;
     cursor: pointer;
 }
+#reset:active{
+    background-color: #002333;
+    color: rgb(87, 84, 84);
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#countdown{
+    display: block;
+   
+    font-size: 30px;
+    width: 9em;
+    height: 2em;
+    margin: 5px 5px 5px 5px;
+   
+    color: rgb(8, 8, 8);
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 pre {
     opacity: 0.9;
     margin:0;
@@ -127,6 +167,9 @@ label {
     text-align: center;
     text-decoration: none;
     font-weight: 900;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 #results:hover {
@@ -134,6 +177,16 @@ label {
     color: white;
     cursor: pointer;
 }
+
+#results:active{
+    background-color: #002333;
+    color: rgb(87, 84, 84);
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 #content {
     padding: 15px;
   

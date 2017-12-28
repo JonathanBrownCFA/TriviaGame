@@ -5,7 +5,7 @@ $(document).ready(function () {
         location.reload();
     });
     $("#timer").click(function () {
-        var count = 31;
+        var count = 30;
 
 
         var counter = setInterval(timer, 1000); //1000 will  run it every 1 second
@@ -15,11 +15,11 @@ $(document).ready(function () {
             if (count <= -1) {
 
                 clearInterval(counter);
-                document.getElementById("timer").innerHTML = "\u00A0" + "Game Over";
+                document.getElementById("countdown").innerHTML = "\u00A0" + "Game Over";
                 alert("Time is up!");
 
             } else {
-                document.getElementById("timer").innerHTML = count + "";
+                document.getElementById("countdown").innerHTML = count + "";
             }
 
             $(document).ready(function () {
