@@ -1,38 +1,54 @@
 html {
-    background-image: url(../images/savannah6.jpg);
-    background-size: 225em;
+    background: url(../images/savannah6.jpg) repeat;
+    background-size: cover ;
+    
+    
+    
+    
 }
 
 pre
 {margin-left:auto;
 margin-right:auto;
-margin: 0;}
 
+margin: 0;
+
+}
 body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     font-family: verdana, arial, helvetica, sans-serif;
     color: #ccc;
     text-align: left;
+   
 }
 
 h3 {
     padding: 19px;
-   
+    background: url(../images/bk.jpg);
     margin-bottom: 0px;
-    width: 560px;
+    width: auto;
     margin-right: auto;
     margin-left: auto;
-    color:bisque;
-    border: 5px solid #ccc;
+    color:rgb(252, 252, 247);
+    
     font-size: 14px;
     
-    border: 5px solid #ccc;
-    text-align: left;
-    opacity: 0.9;
+    
+    text-align: center;
+    opacity: 0.7;
 }
+
+#wrapper {
+   
+    border: none;
+    overflow: hidden;
+    
+    padding: 25px;
+}
+
 #timer {
-    display: block;
+    display: inline-block;
     border-style: solid;
     border-color: #bbb #888 #666 #aaa;
     border-width: 3px 4px 4px 3px;
@@ -47,10 +63,12 @@ h3 {
     text-decoration: none;
     font-weight: 900;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 700px;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    overflow:hidden;
+   
 }
 
 #timer:hover {
@@ -69,13 +87,14 @@ h3 {
 
 
 #reset {
-    display: block;
+    display: inline-block;
     border-style: solid;
     border-color: #bbb #888 #666 #aaa;
     border-width: 3px 4px 4px 3px;
     font-size: 16px;
     width: 10em;
-   
+    height: 2em;
+    overflow: hidden;
     margin: 5px 5px 5px 5px;
     background: #01497c;
     color: rgb(234, 234, 240);
@@ -110,7 +129,7 @@ h3 {
     border: 3px solid #3d3b3b;
     font-size: 50px;
     width: 3em;
-    background-image: url(../images/bk.jpeg);
+    
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -121,6 +140,7 @@ h3 {
     text-align: center;
     border: none;
     border-radius: 15px;
+    
     
 }
 
@@ -204,7 +224,7 @@ label {
 
 #content {
     padding: 15px;
-    opacity: 0.9;
+    opacity: 0.85;
     margin-top: 1px;
     width:570px;
     margin-bottom: 0px;
@@ -213,6 +233,7 @@ label {
     background: #666;
     border: 5px solid #ccc;
     text-align: left;
+    border-style:double;
 }
 
 
