@@ -15,7 +15,7 @@ $(document).ready(function () {
             if (count <= -1) {
 
                 clearInterval(counter);
-                document.getElementById("countdown").innerHTML = "\u00A0" + "Game Over";
+                document.getElementById("countdown").innerHTML = "Game Over";
                 alert("Time is up!");
 
             } else {
