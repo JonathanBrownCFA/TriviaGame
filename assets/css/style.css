@@ -34,6 +34,12 @@ h3 {
     border: none;
     overflow: hidden;
     padding: 25px;
+    font-size:0.875em;
+    display:block;
+    margin-left:44.7%;
+    margin-right:auto;
+    margin-top:30px;
+    width:100%;
 }
 
 #timer {
@@ -51,8 +57,7 @@ h3 {
     text-align: center;
     text-decoration: none;
     font-weight: 900;
-    margin-right: auto;
-    margin-left: 700px;
+   
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -90,8 +95,7 @@ h3 {
     text-align: center;
     text-decoration: none;
     font-weight: 900;
-    margin-right: auto;
-    margin-left: auto;
+  
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
