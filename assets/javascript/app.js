@@ -8,15 +8,18 @@ $(document).ready(function() {
     var count = 30;
 
     var counter = setInterval(timer, 1000); //1000 will  run it every 1 second
-
+  
     function timer() {
       count = count - 1;
-      if (count <= -1) {
+        if (count <= -1) {
         clearInterval(counter);
-        document.getElementById("countdown").innerHTML = "Game Over";
+        document.getElementById("countdown").innerHTML = "0:00";
         alert("Time is up!");
-      } else {
-        document.getElementById("countdown").innerHTML = count + "";
+      } 
+      else {
+        if(count < 10){count = "0" + count;}
+        document.getElementById("countdown").innerHTML = "0:" + count;
+        
       }
 
       $(document).ready(function() {
